@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>404 | Page Not Found</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #0f172a;
+      color: #e2e8f0;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .error-box {
+      background: #1e293b;
+      padding: 40px;
+      border-radius: 15px;
+      border: 1px solid rgba(56, 189, 248, 0.2);
+      box-shadow: 0 0 30px rgba(0,0,0,0.4);
+      max-width: 500px;
+    }
+
+    .error-code {
+      font-size: 5rem;
+      color: #38bdf8;
+      font-weight: bold;
+    }
+
+    .error-text {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      color: #94a3b8;
+    }
+
+    .btn {
+      margin-top: 25px;
+      display: inline-block;
+      padding: 12px 20px;
+      background: linear-gradient(45deg, #38bdf8, #6366f1);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }
+
+    .glow {
+      text-shadow: 0 0 15px rgba(56,189,248,0.6);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="error-box">
+    <div class="error-code glow">404</div>
+    <h2>Signal Lost</h2>
+    <p class="error-text">
+      The page you're looking for does not exist or has been moved.
+    </p>
+
+    <a href="index.html" class="btn">Return Home</a>
+  </div>
+
+</body>
+</html>
