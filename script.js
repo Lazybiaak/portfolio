@@ -28,13 +28,20 @@ const observer = new IntersectionObserver((entries) => {
   threshold: 0.15
 });
 
-document.getElementById("email").innerText =
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const phone = "+9779867993602";
+  document.getElementById("email").innerText =
   "lazybiaak" + "@gmail.com";
+  const phoneLink = document.getElementById("phoneLink");
+  const phoneText = document.getElementById("phoneText");
 
-const phone = "+977 9867993602";
+  phoneLink.href = "tel:" + phone;
+  phoneText.innerText = phone;
 
-document.getElementById("phoneText").innerText = phone;
-document.getElementById("phoneLink").href = "tel:" + phone;
+});
 // Initial setup
 elements.forEach(el => {
   el.classList.add("hidden");
