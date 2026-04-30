@@ -1,185 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bibek Pokhrel | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <!-- <script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- <script>
 if (location.protocol !== "https:") {
   location.replace("https://" + location.href.split("://")[1]);
 }
 </script> -->
 </head>
+
 <body>
 
-<header>
-  <nav>
-    <h2>Bibek Pokhrel</h2>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+  <header>
+    <nav>
+      <h2>Bibek Pokhrel</h2>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<section class="hero">
+  <section class="hero">
 
-  <div class="hero-content">
+    <div class="hero-content">
 
-    <div class="hero-text">
-      <h1>Hi, I'm Bibek</h1>
-      <p>Electronics Engineer | Embedded Systems | IoT</p>
-      <a href="#contact" class="btn">Contact Me</a>
+      <div class="hero-text">
+        <p class="status"><a>●</a> Online</p>
+        <h1>Hi, I'm Bibek Pokhrel</h1>
+        <p>Electronics Engineer | Embedded Systems | IoT</p>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+
+      <div class="hero-image">
+        <img src="img/profile.jpg" alt="Profile">
+      </div>
+
     </div>
 
-    <div class="hero-image">
-      <img src="img/profile.jpg" alt="Profile">
-    </div>
+  </section>
 
-  </div>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I design, build, and debug embedded systems end-to-end. From PCB design and circuit-level troubleshooting to
+      firmware development and IoT integration, I focus on creating systems that are efficient, reliable, and
+      production-ready.
 
-</section>
-
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-I design, build, and debug embedded systems end-to-end. From PCB design and circuit-level troubleshooting to firmware development and IoT integration, I focus on creating systems that are efficient, reliable, and production-ready.
-
-I work hands-on across the entire stack—bringing hardware and software together to turn ideas into functional products. My approach is practical and results-driven, with an emphasis on clean design, robust debugging, and real-world performance rather than just theory.
-  </p>
-</section>
-
-<section id="skills">
-  <h2>Skills</h2>
-
-  <div class="skills-grid">
-
-    <div class="skill-card">
-      <h3>Hardware & Electrical</h3>
-      <p>PCB Design (KiCad / Altium / EasyEDA), Circuit Design & Debugging, Electrical Systems, Power Design</p>
-    </div>
-
-    <div class="skill-card">
-      <h3>Embedded & Firmware</h3>
-      <p>Embedded C/C++, ESP32, ESP-IDF, FreeRTOS</p>
-    </div>
-
-    <div class="skill-card">
-      <h3>Industrial Automation</h3>
-      <p>PLC Programming (Ladder Logic), Control Systems, Sensors & Actuators</p>
-    </div>
-
-    <div class="skill-card">
-      <h3>IoT & Integration</h3>
-      <p>MQTT, HTTP, REST APIs, Cloud Integration, Real-time Systems</p>
-    </div>
-
-    <div class="skill-card">
-      <h3>Communication</h3>
-      <p>UART, I2C, SPI</p>
-    </div>
-
-    <div class="skill-card">
-      <h3>Tools</h3>
-      <p>Git/GitHub, Logic Analyzer, Multimeter, Serial Debugging</p>
-    </div>
-
-  </div>
-</section>
-
-<section id="projects" class="bg-section">
-  <h2>Projects</h2>
-
-  <div class="projects-container">
-	
-<div class="project-card">
-      <div class="icon"><i class="fas fa-microchip"></i></div>
-	<h3>PCB Design and Circuit Debugging</h3>
-      <p>Designed and debugged a full embedded system from schematic to working hardware.</p>
-    </div>
-
-    <div class="project-card">
-      <div class="icon"><i class="fas fa-wifi"></i></div>
-      <h3>IoT Monitoring and Control System</h3>
-      <p>ESP32-based real-time monitoring system with MQTT and cloud integration.</p>
-    </div>
-
-
-
-    <div class="project-card">
-      <div class="icon"><i class="fas fa-industry"></i></div>
-      <h3>PLC Logic and Industrial Automation</h3>
-      <p>Built industrial automation system using PLC and ladder logic.</p>
-    </div>
-
-    <div class="project-card">
-  <div class="icon"><i class="fas fa-wave-square"></i></div>
-  <h3>Signal Analysis and Processing System</h3>
-  <p>Designed a system for signal acquisition, filtering, and analysis</p>
-</div>
-
-  </div>
-</section>
-
-<section id="resume">
-  <h2>Resume</h2>
-
-  <p class="resume-text">
-    Download my full CV for detailed experience, projects, and technical skills.
-  </p>
-
-  <a href="img/Resume.pdf" download class="btn download-btn">
-    <i class="fas fa-download"></i> Download Resume
-  </a>
-</section>
-
-<footer>
-<section id="contact" class="card-section">
-  <h2>Contact</h2>
-
-  <p class="contact-intro">
-    Let’s connect — I’m open to embedded systems roles, IoT projects, and freelance work.
-  </p>
+      I work hands-on across the entire stack—bringing hardware and software together to turn ideas into functional
+      products. My approach is practical and results-driven, with an emphasis on clean design, robust debugging, and
+      real-world performance rather than just theory.
+    </p>
+  </section>
+  <section id="projects" class="bg-section">
+    <h2>Projects</h2>
+    <div id="projects_container" class="projects-container"></div>
     <br>
-        <br>
+    <br>
+    <div class="github-cta">
+      <p>Want to see more?</p>
+      <br>
+      <a href="https://github.com/lazybiaak" target="_blank" class="btn">
+        Visit My GitHub
+      </a>
+    </div>
+  </section>
 
-  <div class="contact-grid">
-	<a id="phoneLink" href="#" class="contact-card">
-  <i class="fas fa-phone"></i>
-  <span>Phone</span>
-  <small id="phoneText"></small>
-</a>
-      
-<a href="mailto:lazybiaak@gmail.com?subject=Hello&body=Hi%20There"
-   target="_blank"
-   rel="noopener noreferrer"
-   class="contact-card">
-  <i class="fas fa-envelope"></i>
-    Email
-  <span id="email"></span>
-</a>
+  <section id="skills">
+    <h2>Skills</h2>
+    <div id="skills-grid" class="skills-grid">
+    </div>
+  </section>
 
-    <a href="https://github.com/lazybiaak" target="_blank" class="contact-card">
-      <i class="fab fa-github"></i>
-      <span>GitHub</span>
-      <small>github.com/lazybiaak</small>
+
+  <section id="resume">
+    <h2>Resume</h2>
+
+    <p class="resume-text">
+      Download my full CV for detailed experience, projects, and technical skills.
+    </p>
+
+    <a href="img/Resume.pdf" download class="btn download-btn">
+      <i class="fas fa-download"></i> Download Resume
     </a>
+  </section>
 
-    <a href="https://www.linkedin.com/in/bibek-pokhrel-0b3364188" target="_blank"class="contact-card">
-      <i class="fab fa-linkedin"></i>
-      <span>LinkedIn</span>
-      <small>Bibek Pokhrel</small>
-    </a>
+  <footer>
 
-  </div>
-</section>
+    <section id="contact" class="card-section">
+      <h2>Contact</h2>
 
-  <p>© 2026 Bibek Pokhrel</p>
-</footer>
+      <p class="contact-intro">
+        Let’s connect — I’m open to embedded systems roles, IoT projects, and freelance work.
+      </p>
+      <br>
+      <br>
 
-<script src="script.js"></script>
+      <div class="contact-grid">
+        <a id="phoneLink" href="#" class="contact-card">
+          <i class="fas fa-phone"></i>
+          <span>Phone</span>
+          <small id="phoneText"></small>
+        </a>
+
+        <a id="emailLink" href="#" target="_blank" rel="noopener noreferrer"
+          class="contact-card">
+          <i class="fas fa-envelope"></i>
+          Email
+          <span id="email"></span>
+        </a>
+
+        <a href="https://github.com/lazybiaak" target="_blank" class="contact-card">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+          <small>github.com/lazybiaak</small>
+        </a>
+
+        <a href="https://www.linkedin.com/in/bibek-pokhrel-0b3364188" target="_blank" class="contact-card">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+          <small>Bibek Pokhrel</small>
+        </a>
+
+      </div>
+    </section>
+    <p>© 2026 Bibek Pokhrel</p>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
+
 </html>

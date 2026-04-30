@@ -1,0 +1,23 @@
+[
+  {
+    "name": "PCB Design and Circuit Debugging",
+    "description": "Full embedded system from schematic to hardware",
+    "github": "https://github.com/lazybiaak/project1",
+    "image": "images/project1.jpg",
+    "type": "hardware"
+  },
+  {
+    "name": "IoT Monitoring System",
+    "description": "ESP32 + MQTT cloud system",
+    "github": "https://github.com/lazybiaak/project2",
+    "image": "images/project2.jpg",
+    "type": "iot"
+  },
+  {
+    "name": "PLC Automation",
+    "description": "Industrial ladder logic system",
+    "github": "https://github.com/lazybiaak/project3",
+    "image": "images/project3.jpg",
+    "type": "automation"
+  }
+]
