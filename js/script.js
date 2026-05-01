@@ -33,8 +33,8 @@ const observer = new IntersectionObserver((entries) => {
 document.addEventListener("DOMContentLoaded", function () {
   const skill_grid = document.getElementById("skills-grid");
   const skills = [
-    "Embedded Programming C/C++", 
-    "PCB Design, Analysis and Debugging", 
+    "Embedded Programming C/C++",
+    "PCB Design, Analysis and Debugging",
     "Communication Protocol",
     "Digital Logic & Analog Circuits",
     "RTOS (Real-Time Operating Systems)",
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const projects_container = document.getElementById("projects_container");
   const projects = [
-    "Autonomous Systems & Robotics",
+    "Combact Robotics",
     "Custom Embedded Hardware Platforms",
     "Smart Industrial Automation",
     "Wireless Communication"
@@ -96,15 +96,15 @@ document.addEventListener("DOMContentLoaded", function () {
   let project_card = "";
   for (let i = 0; i < projects.length; i++) {
     project_card += `
-    <a href="pg${i + 1}.html" class="project-card">
-      <div class="icon"><i class="${projects_icon[i]}"></i></div>
-      <br>
-      <h3>${projects[i]}</h3>
-      <br>
-      <p>${projectsDescriptions[i]}</p>
-      <br>
-    </a>
-  `;
+  <a href="projects.html?group=${encodeURIComponent(projects[i])}" class="project-card">
+    <div class="icon"><i class="${projects_icon[i]}"></i></div>
+    <br>
+    <h3>${projects[i]}</h3>
+    <br>
+    <p>${projectsDescriptions[i]}</p>
+    <br>
+  </a>
+`;
   }
   projects_container.innerHTML = project_card;
 
