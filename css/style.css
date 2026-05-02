@@ -65,7 +65,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('../img/bg.jpg') center/cover no-repeat;
+  background: url("/img/bg.jpg") center/cover no-repeat;
 }
 
 /* overlay */
