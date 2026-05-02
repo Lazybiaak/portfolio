@@ -65,7 +65,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('img/bg.jpg') center/cover no-repeat;
+  background: url('../img/bg.jpg') center/cover no-repeat;
 }
 
 /* overlay */
@@ -212,6 +212,40 @@ section h2 {
 
 }
 
+.skill-list {
+  margin-top: 12px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 3px solid #38bdf8;
+  border-radius: 6px;
+}
+
+.skill-list h5 {
+  font-size: 13px;
+  color: #94a3b8;
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+
+.skill-list p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.skill-tag {
+  background: rgba(56, 189, 248, 0.1);
+  color: #38bdf8;
+  padding: 4px 8px;
+  font-size: 11px;
+  border-radius: 5px;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  transition: 0.2s ease;
+}
+
+.skill-tag:hover {
+  background: #38bdf8;
+  color: #0f172a;
+}
 /* PROJECTS */
 #projects {
 

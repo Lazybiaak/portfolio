@@ -1,34 +1,10 @@
 [
   {
-    "name": "Smart Home Automation",
-    "description": "IoT-based home automation using ESP32 and MQTT.",
-    "github": "https://github.com/yourusername/smart-home",
-    "image": "img/filter-project.png",
-    "groups": ["Combact Robotics"],
-    "skills": ["Embedded Programming", "Communication Protocol", "Industrial IoT"]
-  },
-  {
-    "name": "Smart Home Automation",
-    "description": "IoT-based home automation using ESP32 and MQTT.",
-    "github": "https://github.com/yourusername/smart-home",
-    "image": "img/filter-project.png",
-    "groups": ["Combact Robotics"],
-    "skills": ["Embedded Programming", "Communication Protocol", "Industrial IoT"]
-  },
-  {
-    "name": "Smart Home Automation",
-    "description": "IoT-based home automation using ESP32 and MQTT.",
-    "github": "https://github.com/yourusername/smart-home",
-    "image": "img/filter-project.png",
-    "groups": ["Combact Robotics"],
-    "skills": ["Embedded Programming", "Communication Protocol", "Industrial IoT"]
-  },
-  {
-    "name": "PLC Conveyor System",
-    "description": "Industrial conveyor control using PLC and HMI.",
-    "github": "https://github.com/yourusername/plc-conveyor",
-    "image": "img/filter-project.png",
-    "groups": ["Industrial Automation","Combact Robotics"],
-    "skills": ["PLC Programming and HMI", "Hardware Prototyping and Debugging"]
+    "name": "",
+    "description": "",
+    "details": "",
+    "image": "",
+    "groups": "",
+    "skills": ""
   }
 ]
