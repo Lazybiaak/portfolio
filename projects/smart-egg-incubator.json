@@ -1,0 +1,16 @@
+{
+  "name": "Smart Egg Incubator",
+  "description": "IoT based incubator...",
+  "details": "projects/smart-egg-incubator.html",
+  "image": "assets/images/egg.webp",
+  "github": "",
+  "date": "2026",
+  "status": "Completed",
+  "groups": [
+    "Smart Industrial Automation"
+  ],
+  "skills": [
+    "Embedded Programming C/C++",
+    "Industrial Internet of Things (IIoT)"
+  ]
+}

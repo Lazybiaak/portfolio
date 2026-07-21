@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const projects_container = document.getElementById("projects_container");
   const projects = [
-    "Combact Robotics",
+    "Combat Robotics",
     "Custom Embedded Hardware Platforms",
     "Smart Industrial Automation",
     "Wireless Communication"
