@@ -81,14 +81,16 @@ async function loadProjects() {
       )
     ).filter(Boolean);
 
-    const filtered =
-      projects.filter(project =>
-        project.groups.includes(
-          selectedGroup
-        )
-      );
+  const filtered = projects
+  .filter(project =>
+    project.groups.includes(selectedGroup)
+  )
+  .sort((a, b) =>
+    (b.rank ?? -Infinity) -
+    (a.rank ?? -Infinity)
+  );
 
-    renderProjects(filtered);
+renderProjects(filtered);
 
   } catch (err) {
     console.error(err);
