@@ -52,9 +52,7 @@ async function loadProjects() {
 
   try {
     const response =
-      await fetch(
-        "projects/projects.json"
-      );
+      await fetch("/projects/projects.json");
 
     const files =
       await response.json();

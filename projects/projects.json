@@ -1,5 +1,5 @@
 [
-  "projects/smart-egg-incubator.json",
-  "projects/combat-robot.json",
-  "projects/lora-monitor.json"
+    "/projects/smart-egg-incubator.json",
+    "/projects/combat-robot.json",
+    "/projects/lora-monitor.json"
 ]
