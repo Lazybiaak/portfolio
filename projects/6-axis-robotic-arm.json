@@ -1,0 +1,22 @@
+{
+  "name": "6-Axis Robotic Arm Development Kit",
+  "description": "An affordable, desktop-scale robotic platform that makes robotics education hands on by enabling students to learn programming, kinematics, and automation through real-world experiments instead of theory alone. ",
+  "details": "https://www.baliyoventures.com/project/6-axis-robotic-arm-development-kit",
+  "image": "/img/6-axis-robotic-arm.webp",
+  "github": "",
+  "rank": 5,
+  "date": "2025",
+  "status": "Completed",
+  "groups": [
+    "Robotics",
+    "Smart Industrial Automation",
+    "Custom Embedded Hardware Platforms"
+  ],
+  "skills": [
+    "Embedded Programming C/C++",
+    "PCB Design, Analysis and Debugging",
+    "RTOS (Real-Time Operating Systems)",
+    "Hardware Prototyping & Debugging",
+    "Industrial Internet of Things (IIoT)"
+  ]
+}

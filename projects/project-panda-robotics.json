@@ -1,0 +1,20 @@
+{
+  "name": "Project Panda -Robotics & Animatronic System",
+  "description": "An AI-powered interactive robot developed for the Red Panda Conference in Bhojpur, featuring an onboard AI module and differential drive system to autonomously navigate and answer visitors' questions in real time. ",
+  "details": "https://www.baliyoventures.com/project/project-panda-robotics-animatronic-system",
+  "image": "/img/project-panda-robotics.webp",
+  "github": "",
+  "rank": 5,
+  "date": "2026",
+  "status": "Completed",
+  "groups": [
+    "Robotics",
+    "Custom Embedded Hardware Platforms"
+  ],
+  "skills": [
+    "Embedded Programming C/C++",
+    "PCB Design, Analysis and Debugging",
+    "RTOS (Real-Time Operating Systems)",
+    "Hardware Prototyping & Debugging"
+  ]
+}
